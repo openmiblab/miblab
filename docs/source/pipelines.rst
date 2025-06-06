@@ -22,7 +22,7 @@ are often split into smaller stages producing intermediate checkpoints.
 
         +++
 
-        .. button-link:: https://github.com/openmiblab/tristan-human-modelling?tab=readme-ov-file#measuring-drug-induced-inhibition-of-liver-transporters
+        .. button-link:: https://github.com/openmiblab/tristan-human-stage-2-modelling?tab=readme-ov-file#measuring-drug-mediated-inhibition-of-liver-transporters
             :expand:
             :color: secondary
             :click-parent:
