@@ -6,6 +6,7 @@ Data
 
 Open-access data from *miblab* projects.
 
+
 .. grid:: 1 1 2 2
     :gutter: 4 4 4 4
 
@@ -21,6 +22,24 @@ Open-access data from *miblab* projects.
         +++
 
         .. button-link:: https://zenodo.org/records/14957320
+            :expand:
+            :color: secondary
+            :click-parent:
+
+            **Download**
+
+    .. grid-item-card::
+        :img-top: ../source/_static/transporter-inhibition.png
+        :text-align: center
+
+        **Liver transporter inhibition**
+        ^^^
+
+        Drug-mediated inhibition of liver transporters
+
+        +++
+
+        .. button-link:: https://zenodo.org/records/15610350
             :expand:
             :color: secondary
             :click-parent:
