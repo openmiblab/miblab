@@ -10,7 +10,8 @@
 .custom-card {
     width: 320px;
     border-radius: 1rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.2); /* <-- Add this */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -75,6 +76,30 @@
 
 .btn-zenodo:hover {
     background-color: #0e6394;
+}
+
+.btn-notebook {
+    background-color: #f18f01;
+}
+
+.btn-notebook:hover {
+    background-color: #cc7500;
+}
+
+.btn-input {
+    background-color: #007bff;
+}
+
+.btn-input:hover {
+    background-color: #0056b3;
+}
+
+.btn-output {
+    background-color: #28a745;
+}
+
+.btn-output:hover {
+    background-color: #1e7e34;
 }
 
 
