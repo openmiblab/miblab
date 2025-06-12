@@ -144,7 +144,6 @@ html_theme_options = {
 html_static_path = ['_static']
 
 # Add anyc CSS files placed in _static here so they can be found when building the documentation
-
 html_css_files = [
     'custom.css', # templates for the teams mosaic in About
 ]

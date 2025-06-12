@@ -12,44 +12,43 @@ Pre-trained deep-learning models.
     <h2 class="highlight-title">Segmentation</h2>
 
 
-.. grid:: 1 1 2 2
-    :gutter: 4 4 4 4
+.. raw:: html
 
-    .. grid-item-card::
-        :img-top: ../source/_static/unetr.gif
-        :text-align: center
+    <div class="card-grid">
 
-        **Kidney segmentation**
-        ^^^
+        <div class="custom-card">
+            <img src="_static/unetr.gif" alt="Kidney DIXON UNETR">
+            <div class="custom-card-body">
+                <h3>Kidney segmentation</h3>
+                <p>Segmenting kidneys on DIXON-MRI (UNETR)</p>
+                <div class="button-row">
+                    <a href="https://zenodo.org/records/11038328" target="_blank" class="custom-btn btn-zenodo">
+                        <i class="fa fa-database"></i> Archive
+                    </a>
+                    <a href="https://miblab.org/api/miblab.kidney_pc_dixon.html#miblab.kidney_pc_dixon" target="_blank" class="custom-btn btn-api">
+                        <i class="fa fa-plug"></i> API
+                    </a>
+                </div>
+            </div>
+        </div>
 
-        Segmenting kidneys on DIXON-MRI (UNETR)
+        <div class="custom-card">
+            <img src="_static/3d_mask.gif" alt="Kidney DIXON nnUNET">
+            <div class="custom-card-body">
+                <h3>Kidney segmentation</h3>
+                <p>Segmenting kidneys on DIXON-MRI (nnUNET)</p>
+                <div class="button-row">
+                    <a href="https://zenodo.org/records/14827987" target="_blank" class="custom-btn btn-zenodo">
+                        <i class="fa fa-database"></i> Archive
+                    </a>
+                    <a href="https://miblab.org/api/miblab.kidney_pc_dixon.html#miblab.kidney_pc_dixon" target="_blank" class="custom-btn btn-api">
+                        <i class="fa fa-plug"></i> API
+                    </a>
+                </div>
+            </div>
+        </div>
 
-        +++
-
-        .. button-link:: https://zenodo.org/records/11038328
-            :expand:
-            :color: secondary
-            :click-parent:
-
-            **Download**
-
-    .. grid-item-card::
-        :img-top: ../source/_static/3d_mask.gif
-        :text-align: center
-
-        **Kidney segmentation**
-        ^^^
-
-        Segmenting kidneys on DIXON-MRI (nnUNET)
-
-        +++
-
-        .. button-link:: https://zenodo.org/records/14827987
-            :expand:
-            :color: secondary
-            :click-parent:
-
-            **Download**
+    </div>
 
 
 .. raw:: html
@@ -57,23 +56,24 @@ Pre-trained deep-learning models.
     <h2 class="highlight-title">Mapping</h2>
 
 
-.. grid:: 1 1 2 2
-    :gutter: 4 4 4 4
+.. raw:: html
 
-    .. grid-item-card::
-        :img-top: ../source/_static/fatwater_nnunet.gif
-        :text-align: center
+    <div class="card-grid">
 
-        **Abdominal DIXON-MRI water/fat map calculation**
-        ^^^
+        <div class="custom-card">
+            <img src="_static/fatwater_nnunet.gif" alt="DIXON Fat-water mapping">
+            <div class="custom-card-body">
+                <h3>Abdominal DIXON-MRI water/fat map calculation</h3>
+                <p>Fat-water mapping with nnUNET</p>
+                <div class="button-row">
+                    <a href="https://zenodo.org/records/15356745" target="_blank" class="custom-btn btn-zenodo">
+                        <i class="fa fa-database"></i> Archive
+                    </a>
+                    <a href="https://miblab.org/api/miblab.kidney_dixon_fat_water.html#miblab.kidney_dixon_fat_water" target="_blank" class="custom-btn btn-api">
+                        <i class="fa fa-plug"></i> API
+                    </a>
+                </div>
+            </div>
+        </div>
 
-        Calculate fat/water map on DIXON-MRI
-
-        +++
-
-        .. button-link:: https://zenodo.org/records/15356745
-            :expand:
-            :color: secondary
-            :click-parent:
-
-            **Download**
+    </div>

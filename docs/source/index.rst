@@ -69,7 +69,7 @@ imaging biomarkers*
         <p>Interact programmatically with miblab infrastructure.</p>
       </a>
       <a class="landing-box" href="about.html">
-        <img src="_static/univ-sheffield.png" alt="About">
+        <img src="_static/miblab-gemini.jpg" alt="About">
         <h3>About</h3>
         <p>Who we are, what we do and why we do it.</p>
       </a>

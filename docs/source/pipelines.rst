@@ -51,12 +51,62 @@ are often split into smaller stages producing intermediate checkpoints.
                     </a>
                     <a href="https://github.com/openmiblab/tristan-human-stage-3-analysis/blob/main/src/run.ipynb" target="_blank" class="custom-btn btn-notebook">
                         <i class="fa fa-book"></i> Notebook
+                    </a>
                     <a href="https://zenodo.org/records/15610350" target="_blank" class="custom-btn btn-input">
                         <i class="fa fa-upload"></i> Input Data
                     </a>
                     <a href="https://zenodo.org/records/15610541" target="_blank" class="custom-btn btn-input">
                         <i class="fa fa-upload"></i> Input Data
                     </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="custom-card">
+            <img src="_static/tristan-rat-modelling.png" alt="Tristan rat modelling">
+            <div class="custom-card-body">
+                <h3>Drug-mediated liver transporter inhibition</h3>
+                <p>MRI kinetic analysis (rat assay)</p>
+                <div class="button-row">
+                    <a href="https://github.com/openmiblab/tristan-rat-modelling?tab=readme-ov-file#measuring-drug-mediated-inhibition-of-liver-transporters-in-rats" target="_blank" class="custom-btn btn-repo">
+                        <i class="fa fa-github"></i> Repository
+                    </a>
+                    <a href="https://zenodo.org/records/15648009" target="_blank" class="custom-btn btn-zenodo">
+                        <i class="fa fa-database"></i> Archive
+                    </a>
+                    <a href="https://zenodo.org/records/15610261" target="_blank" class="custom-btn btn-input">
+                        <i class="fa fa-upload"></i> Input Data
+                    </a>
+                    <a href="https://zenodo.org/records/15644248" target="_blank" class="custom-btn btn-output">
+                        <i class="fa fa-download"></i> Output Data
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="custom-card">
+            <img src="_static/tristan-rat-analysis.png" alt="Tristan rat analysis">
+            <div class="custom-card-body">
+                <h3>Drug-mediated liver transporter inhibition</h3>
+                <p>Data analysis of TRISTAN rat studies</p>
+                <div class="button-row">
+                    <a href="https://github.com/openmiblab/tristan-rat-analysis?tab=readme-ov-file#measuring-drug-mediated-inhibition-of-liver-transporters-analysis-of-tristan-rat-data" target="_blank" class="custom-btn btn-repo">
+                        <i class="fa fa-github"></i> Repository
+                    </a>
+                    <a href="https://zenodo.org/records/15647997" target="_blank" class="custom-btn btn-zenodo">
+                        <i class="fa fa-database"></i> Archive
+                    </a>
+                    <a href="https://zenodo.org/records/15644248" target="_blank" class="custom-btn btn-input">
+                        <i class="fa fa-upload"></i> Input Data
+                    </a>
+                    <a href="https://pubs.acs.org/doi/full/10.1021/acs.molpharmaceut.1c00206" target="_blank" class="custom-btn btn-publication">
+                        <i class="fa fa-file-text"></i> Paper
+                    </a>
+                    <a href="https://link.springer.com/article/10.1007/s10334-024-01192-5" target="_blank" class="custom-btn btn-publication">
+                        <i class="fa fa-file-text"></i> Paper
+                    </a>
+                    <a href="https://archive.ismrm.org/2021/2764.html" target="_blank" class="custom-btn btn-publication">
+                        <i class="fa fa-file-text"></i> Abstract
                     </a>
                 </div>
             </div>

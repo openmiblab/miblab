@@ -29,8 +29,37 @@ scrutiny - not just the compact summary that we write at the end.
 
 We believe that allowing data and software to be reused by others offers the 
 best value-for-money for funders and taxpayers. It also means we can promise 
-our study participants that we will make the most (literally) of the 
+our study participants that we will make the most of the 
 data they so generously donate.
+
+.. raw:: html
+
+    <h2 class="highlight-title">What?</h2>
+
+Resources listed on `miblab.org <https://miblab.org>`_ are 
+the result of collaborative work with other researchers, clinicians 
+and industry partners. `miblab.org <https://miblab.org>`_ acts as 
+custodian of these resources and is committed to maintain them and 
+keep them up to date.
+
+All resources are interoperable and reusable in line  
+with the principles of `FAIR <https://www.go-fair.org/fair-principles/>`_: 
+our `data <https://miblab.org/data.html>`_ include an 
+`API <https://miblab.org/reference.html>`_ to download them;
+our `trained models <https://miblab.org/models.html>`_ come with an 
+`API <https://miblab.org/reference.html>`_ to run them on data; 
+our `pipelines <https://miblab.org/pipelines.html>`_ 
+download from our databases, and push results back. Core functionality 
+that is shared between applications is grouped in stand-alone 
+`python packages <https://miblab.org/packages.html>`_.
+
+We strive for these resources to be maximally user-friendly. Code 
+comes with documentation, examples and links to use 
+cases. Data have metadata and clear READMEs. Pipelines are illustrated 
+with notebooks. We use the 
+`miblab zenodo community <https://zenodo.org/communities/miblab>`_ as a 
+permanent archive for all our resoruces, and `miblab.org <https://miblab.org>`_ 
+as a front-end to make them findable and show how they are connected.
 
 
 .. raw:: html
@@ -58,29 +87,30 @@ commercial use:
 
 .. raw:: html
 
-    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <div class="logo-grid">
       <a href="https://www.cost.eu/parenchima-kidney-disease/" target="_blank">
-        <img src="_static/parenchima-logo.jpg" width="200"/>
+        <img src="_static/parenchima-logo.jpg" alt="Parenchima Logo" />
       </a>
       <a href="https://www.imi-tristan.eu/" target="_blank">
-        <img src="_static/tristan-logo.jpg" width="200"/>
+        <img src="_static/tristan-logo.jpg" alt="Tristan Logo" />
       </a>
       <a href="https://www.beat-dkd.eu/" target="_blank">
-        <img src="_static/ibeat-logo.PNG" width="200"/>
+        <img src="_static/ibeat-logo.PNG" alt="iBEAt Logo" />
       </a>
       <a href="https://pubmed.ncbi.nlm.nih.gov/34688256/" target="_blank">
-        <img src="_static/heparim-logo.jpg" width="200"/>
+        <img src="_static/heparim-logo.jpg" alt="HeparIM Logo" />
       </a>
       <a href="https://www.nottingham.ac.uk/research/groups/spmic/research/uk-renal-imaging-network/ukrin-maps.aspx" target="_blank">
-        <img src="_static/ukrin-maps.png" width="200"/>
+        <img src="_static/ukrin-maps.png" alt="UKRIN-MAPS Logo" />
       </a>
       <a href="https://www.uhdb.nhs.uk/afirm-study" target="_blank">
-        <img src="_static/afirm.png" width="200"/>
+        <img src="_static/afirm.png" alt="AFIRM Logo" />
       </a>
       <a href="https://www.sheffieldbrc.nihr.ac.uk/" target="_blank">
-        <img src="_static/brc-logo.png" width="200"/>
+        <img src="_static/brc-logo.png" alt="Sheffield BRC Logo" />
       </a>
     </div>
+
 
 
 .. raw:: html
@@ -89,26 +119,27 @@ commercial use:
 
 .. raw:: html
 
-    <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-      <a href="https://www.kidneyresearchuk.org/" target="_blank">
-        <img src="_static/kruk-logo.png" width="200"/>
-      </a>
-      <a href="https://www.cost.eu/" target="_blank">
-        <img src="_static/cost-logo.png" width="200"/>
-      </a>
-      <a href="https://www.ukri.org/councils/mrc/" target="_blank">
-        <img src="_static/ukri-mrc-square-logo.png" width="200"/>
-      </a>
-      <a href="https://www.ihi.europa.eu/" target="_blank">
-        <img src="_static/ihi-logo.png" width="200"/>
-      </a>
-      <a href="https://www.nihr.ac.uk/" target="_blank">
-        <img src="_static/nihr-logo.png" width="200"/>
-      </a>
-      <a href="https://www.gene.com" target="_blank">
-        <img src="_static/genentech-logo.png" width="200"/>
-      </a>
-    </div>
+  <div class="logo-grid">
+    <a href="https://www.kidneyresearchuk.org/" target="_blank">
+      <img src="_static/kruk-logo.png" alt="Kidney Research UK Logo" />
+    </a>
+    <a href="https://www.cost.eu/" target="_blank">
+      <img src="_static/cost-logo.png" alt="COST Logo" />
+    </a>
+    <a href="https://www.ukri.org/councils/mrc/" target="_blank">
+      <img src="_static/ukri-mrc-square-logo.png" alt="UKRI MRC Logo" />
+    </a>
+    <a href="https://www.ihi.europa.eu/" target="_blank">
+      <img src="_static/ihi-logo.png" alt="IHI Europe Logo" />
+    </a>
+    <a href="https://www.nihr.ac.uk/" target="_blank">
+      <img src="_static/nihr-logo.png" alt="NIHR Logo" />
+    </a>
+    <a href="https://www.gene.com" target="_blank">
+      <img src="_static/genentech-logo.png" alt="Genentech Logo" />
+    </a>
+  </div>
+
 
 
 .. raw:: html
