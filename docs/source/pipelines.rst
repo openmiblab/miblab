@@ -58,6 +58,9 @@ are often split into smaller stages producing intermediate checkpoints.
                     <a href="https://zenodo.org/records/15610541" target="_blank" class="custom-btn btn-input">
                         <i class="fa fa-upload"></i> Input Data
                     </a>
+                    <a href="https://www.medrxiv.org/content/10.1101/2025.06.16.25329670v1" target="_blank" class="custom-btn btn-publication">
+                        <i class="fa fa-file-text"></i> Preprint
+                    </a>
                 </div>
             </div>
         </div>
