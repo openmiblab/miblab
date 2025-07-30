@@ -70,6 +70,7 @@ and
    zenodo_fetch
    osf_fetch
    osf_upload
+   rat_fetch
 
 
 .. raw:: html
