@@ -10,7 +10,7 @@ import inspect
 project = 'miblab'
 copyright = '2025, miblab contributors'
 author = 'miblab contributors'
-release = '0.0.21'
+release = '0.0.22'
 
 # -- Path setup --------------------------------------------------------------
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -73,7 +73,7 @@ sphinx_gallery_conf = {
     'backreferences_dir': 'backreferences',
 
     # Modules for which function/class level galleries are created. 
-    'doc_module': ('miblab', ),
+    'doc_module': ('miblab', 'miblab_dl', ),
 
     # objects to exclude from implicit backreferences. The default option
     # is an empty set, i.e. exclude nothing.

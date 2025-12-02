@@ -1,4 +1,5 @@
 miblab[data,report,dlseg]
+miblab-dl
 changelist==0.4
 matplotlib
 pandas

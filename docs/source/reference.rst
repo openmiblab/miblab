@@ -91,5 +91,20 @@ Interfaces for deploying deep learning models.
 
    totseg
    kidney_pc_dixon
-   kidney_dixon_fat_water
+
+.. currentmodule:: miblab_dl
+
+The `miblab[dlseg]` option will be deprecated in future versions and all 
+deep-learning models will be available via a dedicated package `miblab-dl`. 
+At the moment this provides an API for the fat-water calculations:
+
+.. code-block:: console
+
+   pip install miblab-dl
+
+.. autosummary::
+   :toctree: ./api/
+   :template: autosummary.rst
+
+   fatwater
    
