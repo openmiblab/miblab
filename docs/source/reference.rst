@@ -1,11 +1,5 @@
 .. _api_reference:
 
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   
-   releases/index
-
 
 ###
 API
@@ -17,12 +11,6 @@ that is relevant across applications such as retrieving data or
 models, generating pdf reports, or deploying pipelines.
 
 This page provides an API reference guide for the package. 
-
-.. raw:: html
-
-    <h2 class="highlight-title">Version history</h2>
-
-For a version history see the :ref:`releases page <miblab_releases>`.
 
 .. currentmodule:: miblab
 

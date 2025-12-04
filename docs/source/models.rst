@@ -66,11 +66,17 @@ Pre-trained deep-learning models.
                 <h3>Abdominal DIXON-MRI water/fat map calculation</h3>
                 <p>Fat-water mapping with nnUNET</p>
                 <div class="button-row">
-                    <a href="https://zenodo.org/records/15356745" target="_blank" class="custom-btn btn-zenodo">
-                        <i class="fa fa-database"></i> Archive
-                    </a>
-                    <a href="https://miblab.org/api/miblab.kidney_dixon_fat_water.html#miblab.kidney_dixon_fat_water" target="_blank" class="custom-btn btn-api">
+                    <a href="https://miblab.org/api/miblab_dl.fatwater.html#miblab_dl.fatwater" target="_blank" class="custom-btn btn-api">
                         <i class="fa fa-plug"></i> API
+                    </a>
+                    <a href="https://github.com/openmiblab/iBEAt-fatwater" target="_blank" class="custom-btn btn-repo">
+                        <i class="fa fa-github"></i> Training
+                    </a>
+                    <a href="https://zenodo.org/records/17817186" target="_blank" class="custom-btn btn-repo">
+                        <i class="fa fa-database"></i> Training
+                    </a>
+                    <a href="https://zenodo.org/records/15356745" target="_blank" class="custom-btn btn-zenodo">
+                        <i class="fa fa-database"></i> Weights
                     </a>
                 </div>
             </div>

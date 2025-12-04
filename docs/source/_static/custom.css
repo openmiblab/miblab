@@ -1,3 +1,21 @@
+.custom-btn.btn-embargo {
+    background-color: #cccccc;      /* grey background */
+    color: #555555;                 /* darker text */
+    cursor: not-allowed;            /* disabled cursor */
+    pointer-events: none;           /* ensure no clicking */
+    border: 1px solid #bbbbbb;
+    opacity: 0.8;
+}
+
+.custom-btn.btn-embargo i {
+    margin-right: 6px;
+}
+
+.embargo-disabled {
+    text-decoration: none;
+}
+
+
 .logo-grid {
   display: flex;
   flex-wrap: wrap;
