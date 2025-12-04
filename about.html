@@ -1,0 +1,681 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>About &#8212; miblab 0.0.22 documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  <!--
+    this give us a css class that will be invisible only if js is disabled
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=8f2a1f02" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=c358330f" />
+    <link rel="stylesheet" type="text/css" href="_static/sg_gallery.css?v=d2d258e8" />
+    <link rel="stylesheet" type="text/css" href="_static/sg_gallery-binder.css?v=f4aeca0c" />
+    <link rel="stylesheet" type="text/css" href="_static/sg_gallery-dataframe.css?v=2082cf3c" />
+    <link rel="stylesheet" type="text/css" href="_static/sg_gallery-rendered-html.css?v=1277b6f3" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=c358330f" />
+  
+  <!-- So that users can add custom icons -->
+  <script src="_static/scripts/fontawesome.js?digest=8878045cc6db502f8baf"></script>
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf" />
+
+    <script src="_static/documentation_options.js?v=96ec9c95"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-62S7WYNRKR"></script>
+    <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){ dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'G-62S7WYNRKR');
+            </script>
+    <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){ dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'G-62S7WYNRKR');
+            </script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'about';</script>
+    <link rel="canonical" href="https://miblab.org/about.html" />
+    <link rel="author" title="About these documents" href="#" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="miblab_dl.fatwater" href="api/miblab_dl.fatwater.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <dialog id="pst-search-dialog">
+    
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form>
+  </dialog>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/miblab-gemini.jpg" class="logo__image only-light" alt="miblab 0.0.22 documentation - Home"/>
+    <img src="_static/miblab-gemini.jpg" class="logo__image only-dark pst-js-only" alt="miblab 0.0.22 documentation - Home"/>
+  
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="data.html">
+    Data
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="packages.html">
+    Packages
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="models.html">
+    Models
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="pipelines.html">
+    Pipelines
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="reference.html">
+    API
+  </a>
+</li>
+
+            <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle nav-item" type="button"
+                data-bs-toggle="dropdown" aria-expanded="false"
+                aria-controls="pst-nav-more-links">
+                    More
+                </button>
+                <ul id="pst-nav-more-links" class="dropdown-menu">
+                    
+<li class=" current active">
+  <a class="nav-link dropdown-item nav-internal" href="#">
+    About
+  </a>
+</li>
+
+                </ul>
+            </li>
+            
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/openmiblab/miblab" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-square-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="data.html">
+    Data
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="packages.html">
+    Packages
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="models.html">
+    Models
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="pipelines.html">
+    Pipelines
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="reference.html">
+    API
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="#">
+    About
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/openmiblab/miblab" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-square-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<nav class="bd-docs-nav bd-links"
+     aria-label="Section Navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
+  <div class="bd-toc-item navbar-nav"></div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+      <div class="sidebar-primary-item">
+<div id="ethical-ad-placement"
+      class="flat"
+      data-ea-publisher="readthedocs"
+      data-ea-type="readthedocs-sidebar"
+      data-ea-manual="true">
+</div></div>
+  </div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">About</span></li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="about">
+<span id="id1"></span><h1>About<a class="headerlink" href="#about" title="Link to this heading">#</a></h1>
+<h2 class="highlight-title">Who?</h2><p><em>miblab</em> is a research group focused on development of
+medical imaging biomarkers, based within the
+<a class="reference external" href="https://www.sheffield.ac.uk/smph/research/themes/imaging">section of medical imaging</a>
+at the University of Sheffield (UK), .</p>
+<p>We are committed to working in maximal transparency and sharing our
+resources freely and accessibly - not only the results of our
+research but also the protocols, data, software and models that we
+develop along the way.</p>
+<h2 class="highlight-title">Why?</h2><p>We believe that reproducible science is key to the wider uptake of
+imaging biomarkers in research and clinical practice. And science can
+only be reproducible if the entire process is open to independent
+scrutiny - not just the compact summary that we write at the end.</p>
+<p>We believe that allowing data and software to be reused by others offers the
+best value-for-money for funders and taxpayers. It also means we can promise
+our study participants that we will make the most of the
+data they so generously donate.</p>
+<h2 class="highlight-title">What?</h2><p>Resources listed on <a class="reference external" href="https://miblab.org">miblab.org</a> are
+the result of collaborative work with other researchers, clinicians
+and industry partners. <a class="reference external" href="https://miblab.org">miblab.org</a> acts as
+custodian of these resources and is committed to maintain them and
+keep them up to date.</p>
+<p>All resources are interoperable and reusable in line
+with the principles of <a class="reference external" href="https://www.go-fair.org/fair-principles/">FAIR</a>:
+our <a class="reference external" href="https://miblab.org/data.html">data</a> include an
+<a class="reference external" href="https://miblab.org/reference.html">API</a> to download them;
+our <a class="reference external" href="https://miblab.org/models.html">trained models</a> come with an
+<a class="reference external" href="https://miblab.org/reference.html">API</a> to run them on data;
+our <a class="reference external" href="https://miblab.org/pipelines.html">pipelines</a>
+download from our databases, and push results back. Core functionality
+that is shared between applications is grouped in stand-alone
+<a class="reference external" href="https://miblab.org/packages.html">python packages</a>.</p>
+<p>We strive for these resources to be maximally user-friendly. Code
+comes with documentation, examples and links to use
+cases. Data have metadata and clear READMEs. Pipelines are illustrated
+with notebooks. We use the
+<a class="reference external" href="https://zenodo.org/communities/miblab">miblab zenodo community</a> as a
+permanent archive for all our resoruces, and <a class="reference external" href="https://miblab.org">miblab.org</a>
+as a front-end to make them findable and show how they are connected.</p>
+<h2 class="highlight-title">Licensing</h2><p><em>miblab</em> is rooted in public-private partnerships and recognises that
+efficient research, development and deployment of medical imaging biomarkers
+benefits from frictionless collaboration between sectors.</p>
+<p><em>miblab</em>’s licensing approach reflects this principle and allows users to
+share and adapt its resources with minimal restrictions, including for
+commercial use:</p>
+<ul class="simple">
+<li><p>All <em>miblab</em> software is distributed under the
+<a class="reference external" href="https://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 license</a>.</p></li>
+<li><p>All <em>miblab</em> data are distributed under the
+<a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">CC-BY license</a>.</p></li>
+</ul>
+<h2 class="highlight-title">Projects</h2><div class="logo-grid">
+  <a href="https://www.cost.eu/parenchima-kidney-disease/" target="_blank">
+    <img src="_static/parenchima-logo.jpg" alt="Parenchima Logo" />
+  </a>
+  <a href="https://www.imi-tristan.eu/" target="_blank">
+    <img src="_static/tristan-logo.jpg" alt="Tristan Logo" />
+  </a>
+  <a href="https://www.beat-dkd.eu/" target="_blank">
+    <img src="_static/ibeat-logo.PNG" alt="iBEAt Logo" />
+  </a>
+  <a href="https://pubmed.ncbi.nlm.nih.gov/34688256/" target="_blank">
+    <img src="_static/heparim-logo.jpg" alt="HeparIM Logo" />
+  </a>
+  <a href="https://www.nottingham.ac.uk/research/groups/spmic/research/uk-renal-imaging-network/ukrin-maps.aspx" target="_blank">
+    <img src="_static/ukrin-maps.png" alt="UKRIN-MAPS Logo" />
+  </a>
+  <a href="https://www.uhdb.nhs.uk/afirm-study" target="_blank">
+    <img src="_static/afirm.png" alt="AFIRM Logo" />
+  </a>
+  <a href="https://www.sheffieldbrc.nihr.ac.uk/" target="_blank">
+    <img src="_static/brc-logo.png" alt="Sheffield BRC Logo" />
+  </a>
+</div><h2 class="highlight-title">Funders</h2><div class="logo-grid">
+  <a href="https://www.kidneyresearchuk.org/" target="_blank">
+    <img src="_static/kruk-logo.png" alt="Kidney Research UK Logo" />
+  </a>
+  <a href="https://www.cost.eu/" target="_blank">
+    <img src="_static/cost-logo.png" alt="COST Logo" />
+  </a>
+  <a href="https://www.ukri.org/councils/mrc/" target="_blank">
+    <img src="_static/ukri-mrc-square-logo.png" alt="UKRI MRC Logo" />
+  </a>
+  <a href="https://www.ihi.europa.eu/" target="_blank">
+    <img src="_static/ihi-logo.png" alt="IHI Europe Logo" />
+  </a>
+  <a href="https://www.nihr.ac.uk/" target="_blank">
+    <img src="_static/nihr-logo.png" alt="NIHR Logo" />
+  </a>
+  <a href="https://www.gene.com" target="_blank">
+    <img src="_static/genentech-logo.png" alt="Genentech Logo" />
+  </a>
+</div><h2 class="highlight-title">People</h2><div class="team-grid">
+
+<div class="team-member">
+    <img
+    src="https://avatars.githubusercontent.com/u/48806417?v=4"
+    alt="Avatar picture of @JoaoPeriquito"
+    class="team-avatar"
+    />
+    <a href="https://github.com/JoaoPeriquito" class="team-name">Joao Periquito</a>
+    <div class="team-handle">@JoaoPeriquito</div>
+</div>
+
+<div class="team-member">
+    <img
+    src="https://avatars.githubusercontent.com/u/100941618?v=4"
+    alt="Avatar picture of @EbonyGunwhy"
+    class="team-avatar"
+    />
+    <a href="https://github.com/EbonyGunwhy" class="team-name">Ebony Gunwhy</a>
+    <div class="team-handle">@EbonyGunwhy</div>
+</div>
+
+<div class="team-member">
+    <img
+    src="https://avatars.githubusercontent.com/u/146969160?v=4"
+    alt="Avatar picture of @ajojosephthomas"
+    class="team-avatar"
+    />
+    <a href="https://github.com/ajojosephthomas" class="team-name">Ajo Thomas</a>
+    <div class="team-handle">@ajojosephthomas</div>
+</div>
+
+<div class="team-member">
+    <img
+    src="https://avatars.githubusercontent.com/u/64839879?v=4"
+    alt="Avatar picture of @kteh123"
+    class="team-avatar"
+    />
+    <a href="https://github.com/kteh123" class="team-name">Kevin Teh</a>
+    <div class="team-handle">@kteh123</div>
+</div>
+
+<div class="team-member">
+    <img
+    src="https://avatars.githubusercontent.com/u/6051075?v=4"
+    alt="Avatar picture of @plaresmedima"
+    class="team-avatar"
+    />
+    <a href="https://github.com/plaresmedima" class="team-name">Steven Sourbron</a>
+    <div class="team-handle">@plaresmedima</div>
+</div>
+
+</div></section>
+
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="api/miblab_dl.fatwater.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">miblab_dl.fatwater</p>
+      </div>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <dialog id="pst-secondary-sidebar-modal"></dialog>
+                <div id="pst-secondary-sidebar" class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/about.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script defer src="_static/scripts/bootstrap.js?digest=8878045cc6db502f8baf"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2025, miblab contributors.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.1.3.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.16.1.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+  </body>
+</html>
