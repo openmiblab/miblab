@@ -11,6 +11,40 @@ are often split into smaller stages producing intermediate checkpoints.
 
 .. raw:: html
 
+    <h2 class="highlight-title">Data cleaning</h2>
+
+
+.. raw:: html
+
+    <div class="card-grid">
+
+        <div class="custom-card">
+            <img src="_static/fat_mosaic.png" alt="Dixon cleaning">
+            <div class="custom-card-body">
+                <h3>3D Dixon MRI data cleaning</h3>
+                <p>Pipeline for harmonization of the 3D Dixon data in the iBEAt study</p>
+                <div class="button-row">
+                    <a href="https://github.com/openmiblab/iBEAt-dixon" target="_blank" class="custom-btn btn-repo">
+                        <i class="fa fa-github"></i>  Repository
+                    </a>
+                    <a href="https://zenodo.org/records/18004700" target="_blank" class="custom-btn btn-zenodo">
+                        <i class="fa fa-database"></i>  Archive
+                    </a>
+                    <a href="https://qib.shef.ac.uk/app/template/Login.vm#!" target="_blank" class="custom-btn btn-input">
+                        <i class="fa fa-upload"></i> Input data (private)
+                    </a>
+                    <span class="custom-btn btn-embargo embargo-disabled">
+                        <i class="fa fa-lock"></i>  Output data (private)
+                    </span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+.. raw:: html
+
     <h2 class="highlight-title">Model training</h2>
 
 
@@ -31,7 +65,7 @@ are often split into smaller stages producing intermediate checkpoints.
                         <i class="fa fa-database"></i> Archive
                     </a>
                     <span class="custom-btn btn-embargo embargo-disabled">
-                        <i class="fa fa-lock"></i> Input Data (Embargoed)
+                        <i class="fa fa-lock"></i> Input data (private)
                     </span>
                     <a href="https://zenodo.org/records/15356745" target="_blank" class="custom-btn btn-output">
                         <i class="fa fa-download"></i> Model weights
