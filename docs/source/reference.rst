@@ -35,7 +35,6 @@ All reporting functionality is wrapped up in a single class:
    Report
 
 
-
 .. raw:: html
 
     <h2 class="highlight-title">Deep-learning API</h2>
