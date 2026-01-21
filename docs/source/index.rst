@@ -8,7 +8,6 @@
    packages
    models
    pipelines
-   reference
    about
 
 
@@ -27,7 +26,6 @@ imaging biomarkers*
 :ref:`Packages <python_packages>` |
 :ref:`Models <dl_models>` |
 :ref:`Pipelines <pipelines>` |
-:ref:`API <api_reference>` |
 :ref:`About <about>` |
 `Reading <https://www.sciencedirect.com/science/article/pii/B9780128170571000020>`_
 
