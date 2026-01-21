@@ -35,31 +35,6 @@ All reporting functionality is wrapped up in a single class:
    Report
 
 
-.. raw:: html
-
-    <h2 class="highlight-title">Data</h2>
-
-To access these functions, miblab must be installed with the `data` option:
-
-.. code-block:: console
-
-   pip install miblab[data]
-
-APIs for upload and download to 
-`Zenodo <https://zenodo.org/communities/miblab>`_ 
-and 
-`OSF <https://osf.io/un5ct/>`_:
-
-
-.. autosummary::
-   :toctree: ./api/
-   :template: autosummary.rst
-
-   zenodo_fetch
-   osf_fetch
-   osf_upload
-   rat_fetch
-
 
 .. raw:: html
 

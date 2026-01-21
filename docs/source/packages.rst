@@ -110,3 +110,25 @@ Python packages developed and maintained by miblab.
 
     <h2 class="highlight-title">miblab utilities</h2>
 
+
+.. grid:: 1 1 2 2
+    :gutter: 4 4 4 4
+
+    .. grid-item-card::
+        :img-top: ../source/_static/rat_tristan.png
+        :text-align: center
+
+        **miblab-data**
+        ^^^
+
+        An API for downloading and uploading miblab data.
+
+        +++
+
+        .. button-link:: https://openmiblab.github.io/docs-miblab-data/
+            :expand:
+            :color: secondary
+            :click-parent:
+
+            To the **miblab-data** documentation
+

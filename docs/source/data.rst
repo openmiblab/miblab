@@ -23,7 +23,10 @@ Open-access data from *miblab* projects.
                 <p>Dynamic gadoxetate MRI (DICOM) of rats with/without inhibitors</p>
                 <div class="button-row">
                     <a href="https://zenodo.org/records/17178063" target="_blank" class="custom-btn btn-zenodo">
-                        <i class="fa fa-database"></i> Download
+                        <i class="fa fa-database"></i> Archive
+                    </a>
+                    <a href="https://openmiblab.github.io/docs-miblab-data/api/miblab_data.tristan.rat_fetch.html#miblab_data.tristan.rat_fetch" target="_blank" class="custom-btn btn-api">
+                        <i class="fa fa-plug"></i> API
                     </a>
                 </div>
             </div>
@@ -36,7 +39,7 @@ Open-access data from *miblab* projects.
                 <p>Signal-time curves in livers of rats and humans, with and without drugs</p>
                 <div class="button-row">
                     <a href="https://zenodo.org/records/14957320" target="_blank" class="custom-btn btn-zenodo">
-                        <i class="fa fa-database"></i> Download
+                        <i class="fa fa-database"></i> Archive
                     </a>
                 </div>
             </div>
@@ -49,7 +52,7 @@ Open-access data from *miblab* projects.
                 <p>Drug-mediated inhibition of liver transporters</p>
                 <div class="button-row">
                     <a href="https://zenodo.org/records/15610350" target="_blank" class="custom-btn btn-zenodo">
-                        <i class="fa fa-database"></i> Download
+                        <i class="fa fa-database"></i> Archive
                     </a>
                 </div>
             </div>
@@ -74,7 +77,7 @@ Open-access data from *miblab* projects.
                 <p>Signal-time curves in individual kidneys</p>
                 <div class="button-row">
                     <a href="https://zenodo.org/records/14957344" target="_blank" class="custom-btn btn-zenodo">
-                        <i class="fa fa-database"></i> Download
+                        <i class="fa fa-database"></i> Archive
                     </a>
                 </div>
             </div>

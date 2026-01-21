@@ -1,4 +1,4 @@
-miblab[data,report,dlseg]
+miblab[report,dlseg]
 miblab-dl
 changelist==0.4
 matplotlib
