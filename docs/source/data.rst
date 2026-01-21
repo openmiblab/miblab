@@ -25,7 +25,7 @@ Open-access data from *miblab* projects.
                     <a href="https://zenodo.org/records/17178063" target="_blank" class="custom-btn btn-zenodo">
                         <i class="fa fa-database"></i> Archive
                     </a>
-                    <a href="https://openmiblab.github.io/docs-miblab-data/api/miblab_data.tristan.rat_fetch.html#miblab_data.tristan.rat_fetch" target="_blank" class="custom-btn btn-api">
+                    <a href="https://openmiblab.github.io/docs-miblab-data/api/miblab_data.tristan.rat_fetch.html" target="_blank" class="custom-btn btn-api">
                         <i class="fa fa-plug"></i> API
                     </a>
                 </div>
