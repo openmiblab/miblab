@@ -17,6 +17,19 @@ Open-access data from *miblab* projects.
     <div class="card-grid">
 
         <div class="custom-card">
+            <img src="_static/rat_tristan.png" alt="Tristan rat DICOM">
+            <div class="custom-card-body">
+                <h3>Rat liver DCE</h3>
+                <p>Dynamic gadoxetate MRI (DICOM) of rats with/without inhibitors</p>
+                <div class="button-row">
+                    <a href="https://zenodo.org/records/17178063" target="_blank" class="custom-btn btn-zenodo">
+                        <i class="fa fa-database"></i> Download
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="custom-card">
             <img src="_static/gadox-banner.png" alt="Gadoxetate">
             <div class="custom-card-body">
                 <h3>Liver gadoxetate kinetics</h3>

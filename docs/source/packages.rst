@@ -7,6 +7,11 @@ Packages
 Python packages developed and maintained by miblab.
 
 
+.. raw:: html
+
+    <h2 class="highlight-title">General-purpose packages</h2>
+
+
 .. grid:: 1 1 2 2
     :gutter: 4 4 4 4
 
@@ -100,21 +105,8 @@ Python packages developed and maintained by miblab.
 
             To the **dbdicom** documentation
 
-    .. grid-item-card::
-        :img-top: ../source/_static/wezel-banner.png
-        :text-align: center
 
-        **wezel**
-        ^^^
+.. raw:: html
 
-        A graphical user interface for prototyping pipelines, editing 
-        of data and quality control of results.
+    <h2 class="highlight-title">miblab utilities</h2>
 
-        +++
-
-        .. button-link:: https://github.com/QIB-Sheffield/wezel
-            :expand:
-            :color: secondary
-            :click-parent:
-
-            To the **wezel** repository
