@@ -33,6 +33,7 @@ imaging biomarkers*
 `Github organization <https://github.com/openmiblab>`_ |
 `Zenodo community <https://zenodo.org/communities/miblab>`_ |
 `OSF project <https://osf.io/un5ct/>`_ |
+`XNAT <https://qib.shef.ac.uk/>`_ |
 `Offices <https://www.sheffield.ac.uk/smph/research/themes/imaging/medical-imaging-facilities/polaris-image-computing-lab>`_
 
 ----
@@ -60,11 +61,6 @@ imaging biomarkers*
         <img src="_static/correlations_effect.png" alt="Pipelines">
         <h3>Pipelines</h3>
         <p>Analysis pipelines used to derive miblab results.</p>
-      </a>
-      <a class="landing-box" href="reference.html">
-        <img src="_static/api.png" alt="API">
-        <h3>API</h3>
-        <p>Interact programmatically with miblab infrastructure.</p>
       </a>
       <a class="landing-box" href="about.html">
         <img src="_static/miblab-gemini.jpg" alt="About">

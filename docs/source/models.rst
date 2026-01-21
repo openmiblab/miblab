@@ -25,7 +25,7 @@ Pre-trained deep-learning models.
                     <a href="https://zenodo.org/records/11038328" target="_blank" class="custom-btn btn-zenodo">
                         <i class="fa fa-database"></i> Archive
                     </a>
-                    <a href="https://miblab.org/api/miblab.kidney_pc_dixon.html#miblab.kidney_pc_dixon" target="_blank" class="custom-btn btn-api">
+                    <a href="https://openmiblab.github.io/docs-miblab-dl/api/miblab_dl.kidney_pc_dixon_unetr.html#miblab_dl.kidney_pc_dixon_unetr" target="_blank" class="custom-btn btn-api">
                         <i class="fa fa-plug"></i> API
                     </a>
                 </div>
@@ -41,7 +41,7 @@ Pre-trained deep-learning models.
                     <a href="https://zenodo.org/records/14827987" target="_blank" class="custom-btn btn-zenodo">
                         <i class="fa fa-database"></i> Archive
                     </a>
-                    <a href="https://miblab.org/api/miblab.kidney_pc_dixon.html#miblab.kidney_pc_dixon" target="_blank" class="custom-btn btn-api">
+                    <a href="https://openmiblab.github.io/docs-miblab-dl/api/miblab_dl.kidney_pc_dixon.html#miblab_dl.kidney_pc_dixon" target="_blank" class="custom-btn btn-api">
                         <i class="fa fa-plug"></i> API
                     </a>
                 </div>
@@ -66,7 +66,7 @@ Pre-trained deep-learning models.
                 <h3>Abdominal DIXON-MRI water/fat map calculation</h3>
                 <p>Fat-water mapping with nnUNET</p>
                 <div class="button-row">
-                    <a href="https://miblab.org/api/miblab_dl.fatwater.html#miblab_dl.fatwater" target="_blank" class="custom-btn btn-api">
+                    <a href="https://openmiblab.github.io/docs-miblab-dl/api/miblab_dl.fatwater.html#miblab_dl.fatwater" target="_blank" class="custom-btn btn-api">
                         <i class="fa fa-plug"></i> API
                     </a>
                     <a href="https://github.com/openmiblab/iBEAt-fatwater" target="_blank" class="custom-btn btn-repo">

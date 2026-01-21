@@ -132,3 +132,22 @@ Python packages developed and maintained by miblab.
 
             To the **miblab-data** documentation
 
+
+    .. grid-item-card::
+        :img-top: ../source/_static/unetr.png
+        :text-align: center
+
+        **miblab-dl**
+        ^^^
+
+        An API for miblab's trained deep-learning models.
+
+        +++
+
+        .. button-link:: https://openmiblab.github.io/docs-miblab-dl/
+            :expand:
+            :color: secondary
+            :click-parent:
+
+            To the **miblab-dl** documentation
+
