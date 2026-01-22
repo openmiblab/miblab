@@ -62,7 +62,7 @@ Python packages developed and maintained by miblab.
 
         +++
 
-        .. button-link:: https://openmiblab.github.io/vreg/
+        .. button-link:: https://openmiblab.github.io/docs-vreg/
             :expand:
             :color: secondary
             :click-parent:
@@ -80,7 +80,7 @@ Python packages developed and maintained by miblab.
 
         +++
 
-        .. button-link:: https://openmiblab.github.io/pydmr/
+        .. button-link:: https://openmiblab.github.io/docs-pydmr/
             :expand:
             :color: secondary
             :click-parent:
@@ -98,7 +98,7 @@ Python packages developed and maintained by miblab.
 
         +++
 
-        .. button-link:: https://openmiblab.github.io/dbdicom/
+        .. button-link:: https://openmiblab.github.io/docs-dbdicom/
             :expand:
             :color: secondary
             :click-parent:
