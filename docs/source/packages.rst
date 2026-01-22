@@ -44,7 +44,7 @@ Python packages developed and maintained by miblab.
 
         +++
 
-        .. button-link:: https://openmiblab.github.io/mdreg/
+        .. button-link:: https://openmiblab.github.io/docs-mdreg/
             :expand:
             :color: secondary
             :click-parent:
