@@ -106,7 +106,7 @@ Python packages developed and maintained by miblab.
             To the **dbdicom** documentation
 
     .. grid-item-card::
-        :img-top: ../source/_static/miblab-gemini.jpg
+        :img-top: ../source/_static/numpyradiomics.png
         :text-align: center
 
         **NumpyRadiomics**
