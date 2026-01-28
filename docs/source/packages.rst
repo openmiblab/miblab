@@ -105,6 +105,24 @@ Python packages developed and maintained by miblab.
 
             To the **dbdicom** documentation
 
+    .. grid-item-card::
+        :img-top: ../source/_static/miblab-gemini.jpg
+        :text-align: center
+
+        **NumpyRadiomics**
+        ^^^
+
+        Lightweight, pure-Python radiomic shape and texture features
+
+        +++
+
+        .. button-link:: https://openmiblab.github.io/docs-numpyradiomics/
+            :expand:
+            :color: secondary
+            :click-parent:
+
+            To the **NumpyRadiomics** documentation
+
 
 .. raw:: html
 
