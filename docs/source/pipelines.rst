@@ -11,7 +11,7 @@ are often split into smaller stages producing intermediate checkpoints.
 
 .. raw:: html
 
-    <h2 class="highlight-title">Data cleaning</h2>
+    <h2 class="highlight-title">BEAt-DKD project</h2>
 
 
 .. raw:: html
@@ -40,18 +40,6 @@ are often split into smaller stages producing intermediate checkpoints.
             </div>
         </div>
 
-    </div>
-
-
-.. raw:: html
-
-    <h2 class="highlight-title">Model training</h2>
-
-
-.. raw:: html
-
-    <div class="card-grid">
-
         <div class="custom-card">
             <img src="_static/fat_recon.png" alt="Fatwater training">
             <div class="custom-card-body">
@@ -74,12 +62,28 @@ are often split into smaller stages producing intermediate checkpoints.
             </div>
         </div>
 
+        <div class="custom-card">
+            <img src="_static/napari.png" alt="Organ shape features">
+            <div class="custom-card-body">
+                <h3>Organ shape features from 3D Dixon-MRI</h3>
+                <p>Deriving, editing, visualising and measuring 3D organ shapes</p>
+                <div class="button-row">
+                    <a href="https://github.com/openmiblab/ppln-ibeat-totseg" target="_blank" class="custom-btn btn-repo">
+                        <i class="fa fa-github"></i> Repository
+                    </a>
+                    <span class="custom-btn btn-embargo embargo-disabled">
+                        <i class="fa fa-lock"></i> Input data (private)
+                    </span>
+                </div>
+            </div>
+        </div>
+
     </div>
 
 
 .. raw:: html
 
-    <h2 class="highlight-title">Modelling</h2>
+    <h2 class="highlight-title">TRISTAN project</h2>
 
 
 .. raw:: html
@@ -132,18 +136,6 @@ are often split into smaller stages producing intermediate checkpoints.
                 </div>
             </div>
         </div>
-
-    </div>
-
-
-.. raw:: html
-
-    <h2 class="highlight-title">Analysis</h2>
-
-
-.. raw:: html
-
-    <div class="card-grid">
 
         <div class="custom-card">
             <img src="_static/correlations_effect.png" alt="Correlations Effect">
